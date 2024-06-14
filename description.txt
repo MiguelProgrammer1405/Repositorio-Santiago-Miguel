@@ -1,0 +1,12 @@
+estos son los comandos más importantes de github 
+
+create a commit: git commit -m "version-name"
+create a new Branch: git checkout -b "branch-name"
+see all my versions: git log
+see all my versiones (summarized) :git log --oneline
+see all my versions (summarized) even in a detatched head state: git log --oneline --all
+go back to a previous versión on git: git checkout "hash of the previous version"
+change the Branch: git checkout "branch-name"
+see all the relationship between versións and branches: git log --oneline --graph --all
+delete versions from an specific versión: git reset --hard <commit-hash>
+delete versions from a remote repository: git push origin <branch-name> --force
