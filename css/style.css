@@ -1,0 +1,10 @@
+body{
+    font-family: sans-serif, 'Times New Roman', Arial, Helvetica;
+    background-color: darkgray;
+}
+
+img {
+    width: 450px;
+    height: auto;
+    padding-left: 10px;
+}
